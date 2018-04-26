@@ -1,0 +1,20 @@
+{
+  "name": "ChannelJoinAssignGroup",
+  "author": "HellBz",
+  "description": "Triggers when user moves into a channel being monitored",
+  "version": "1.0",
+  "triggers": [
+    "event"
+  ],
+  "event": "clientmoved",
+  "usage": "false",
+  "channels":{
+		"13467":[
+			{"group":"589","msg":"[color=green]THX for [/color][color=grey][b]Accepting[/b][/color][color=green] Our Server-Rules.[/color]"}
+		],
+		"00000":[
+			{"group":"589","msg":"Test"},
+			{"group":"589","msg":"Test"}
+		]
+  }
+}

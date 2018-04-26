@@ -1,0 +1,11 @@
+{
+  "name": "ServerJoinGroup",
+  "author": "HellBz",
+  "description": "Set New User a Group",
+  "version": "1.0",
+  "triggers": [
+      "event"
+  ],
+  "event": "cliententerview",
+  "usage": "false"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ServerJoinRadioBot",
+  "author": "HellBz",
+  "description": "Triggers when user moves into a channel being monitored",
+  "version": "1.0",
+  "triggers": [
+    "event"
+  ],
+  "event": "cliententerview",
+  "usage": "false",
+  "botuids":{
+		"XlkQaM/4L/paCVwD/zRatTsbuMM=":  "[b]Hello HellBz my Master..[/b]",
+		"SwkWu/vExIlpKQ/RhYO05bQfViM=":  "!play http://stream01.iloveradio.de/iloveradio1.mp3\n!loop on\n!unsub chan",
+		"N3tBEho0LnZYtMP7iPtVRxQt7Co=":  "!play http://stream.sunshine-live.de/80er/mp3-192/stream.sunshine-live.de/\n!loop on\n!unsub chan",
+		"MQwTRrsGnO+6+86pubC33yRYe5I=":  "!play http://streams.bigfm.de/bigfm-deutschland-128-mp3\n!loop on\n!unsub chan",
+		"/ZYIyr4XKL9Cb9qGfhu6LjvJ8YI=":  "!play http://wdr-1live-diggi.cast.addradio.de/wdr/1live/diggi/mp3/128/stream.mp3\n!loop on\n!unsub chan",
+		"hRj0biIHieMjlr/5WJ1M8s+gqZo=":  "!play http://stream.radio7.de/stream5/livestream.mp3\n!loop on\n!unsub chan"
+  }
+}
