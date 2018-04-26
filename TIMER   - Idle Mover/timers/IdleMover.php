@@ -2,8 +2,6 @@
 /**
  * Created by Notepad++
  * User: HellBz
- * Date: 31/03/2018
- * Time: 02:08
  */
 
 namespace Timer;

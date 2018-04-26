@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Jake
- * Date: 09/08/2016
- * Time: 04:21
+ * Created by Notepad++
+ * User: HellBz
  */
 
 namespace Plugin;
