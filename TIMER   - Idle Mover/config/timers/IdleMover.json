@@ -1,0 +1,41 @@
+{
+  "name": "IdleMover",
+  "author": "HellBz",
+  "description": "Move Idle Players to AFK Channel",
+  "version": "1.0",
+  "interval": {
+    "hours": 0,
+    "minutes": 0,
+    "seconds": 1
+  },
+
+  "table": "idle_moves",
+
+  "idlemove": "true",
+  "idle_movetimes": { "600": {"channel":13514, "msg":"[color=green]You Moved for beeing [/color][color=#3d3d3d][b]20[/b][/color][color=green] Minutes AFK.[/color]"},
+				      "1800":{"channel":13515 ,"msg":"[color=green]You Moved for beeing [/color][color=#3d3d3d][b]30[/b][/color][color=green] Minutes AFK.[/color]"}
+  },
+  
+  "deactiv_away_move":    "true",
+  "deactiv_in_move":      "true",
+  "deactiv_out_move":     "true",
+  "deactiv_move_delay":    10,
+  "deactiv_move_msg":     "[color=green]You [/color][color=red][b]Deactivate[/b][/color][color=green] anyone in your Teamspeak.[/color]",
+  "deactiv_move_channel":  13513,
+  
+  
+  "nomove_user": [ "" ],
+  "nomove_group": [ 361, 358, 377],
+  "nomove_channel": [ 13103, 13102, 12994, 12944, 13028, 9887, 7966, 13471 ],
+  
+  "moveback": 						"true",
+  "moveback_msg": 					"[COLOR=#3d3d3d]You [COLOR=green]MOVED BACK[/COLOR] to your previours Channel '[COLOR=#080d70][I]%CH_NAME%[/I][/COLOR]'.[/COLOR]",
+  "moveback_channel_password": 		"true",
+  "moveback_channel_password_msg": 	"[COLOR=#3d3d3d]I [COLOR=red][B]cannot[/B][/COLOR] Move You to a[COLOR=red][B] PASSWORD PROTECTED CHANNEL[/B][/COLOR] back![/COLOR]",
+  "moveback_channel_full":     		"false",
+  "moveback_channel_full_msg": 		"[COLOR=#3d3d3d]I [COLOR=red][B]Cannot[/B][/COLOR] Move You to a[COLOR=red][B] FULL CHANNEL[/B][/COLOR] back![/COLOR]",
+  "moveback_channel_block": 		[ 13471,7966,12944,13102,12965 ],
+  "moveback_channel_block_msg": 	"[COLOR=#3d3d3d]I [COLOR=red][B]Cannot[/B][/COLOR] Move You to a[COLOR=red][B] BLOCKED CHANNEL[/B][/COLOR] back![/COLOR]",
+  "moveback_channel_exists": 		"[COLOR=#3d3d3d]You previours Channel does [COLOR=red][B]NOT EXISTS[/B][/COLOR] ![/COLOR]"
+  
+}
