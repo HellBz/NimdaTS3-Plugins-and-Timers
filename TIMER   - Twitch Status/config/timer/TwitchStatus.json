@@ -1,0 +1,48 @@
+{
+  "name": "TwitchStatus",
+  "author": "HellBz",
+  "description": "Set Name and Description of Channel from Twitch-Streamer",
+  "version": "1.0",
+  "interval": {
+    "hours":   0,
+    "minutes": 1,
+    "seconds": 0
+  },  
+  "client_id": "jzkbprff40iqj646a697cyrvl0zt2m6",
+  "statuschannelid": { 
+		"7966": {
+			"twitch_user":	    "HellBz",
+			"ch_name":		    "true",
+			"ch_name_text_on": "Twitch  ٠•● HellBz ●•٠ is Live",	
+			"ch_name_text_off":  "Twitch  ٠•● HellBz ●•٠",
+			"ch_desc":		    "true",
+			"ch_desc_text_on": 	"[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL={url}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#00aa00]Online[/color]\n[COLOR=#4b367c]Aktuelles Spiel:[/color] {game}\n[COLOR=#4b367c]Titel:[/color] {title}\n[COLOR=#4b367c]",
+			"ch_desc_text_off": "[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL=https://www.twitch.tv/{user}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#ff0000]Offline[/color][/size]",
+			"server_ad":	  	"true",
+			"server_ad_text": 	"Hey@ALL [URL={url}][color=#00aa00]{user}[/color][/URL] ist {status} auf [URL=https://www.twitch.tv/][color=#00aa00]Twitch[/color][/URL] und spielt {game}"
+				},
+		"13640": {
+			"twitch_user":	    "MJContent",
+			"ch_name":		    "true",
+			"ch_name_text_on": "Twitch  ٠•● MJContent ●•٠ is Live",	
+			"ch_name_text_off":  "Twitch  ٠•● MJContent ●•٠",
+			"ch_desc":		    "true",
+			"ch_desc_text_on": 	"[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL={url}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#00aa00]Online[/color]\n[COLOR=#4b367c]Aktuelles Spiel:[/color] {game}\n[COLOR=#4b367c]Titel:[/color] {title}\n[COLOR=#4b367c]",
+			"ch_desc_text_off": "[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL=https://www.twitch.tv/{user}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#ff0000]Offline[/color][/size]",
+			"server_ad":	  	"true",
+			"server_ad_text": 	"Hey@ALL [URL={url}][color=#00aa00]{user}[/color][/URL] ist {status} auf [URL=https://www.twitch.tv/][color=#00aa00]Twitch[/color][/URL] und spielt {game}"
+				},
+		"13639": {
+			"twitch_user":	    "DrDarko",
+			"ch_name":		    "true",
+			"ch_name_text_on": "Twitch  ٠•● DrDarko ●•٠ is Live",
+			"ch_name_text_off":  "Twitch  ٠•● DrDarko ●•٠",		
+			"ch_desc":		    "true",
+			"ch_desc_text_on": 	"[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL={url}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#00aa00]Online[/color]\n[COLOR=#4b367c]Aktuelles Spiel:[/color] {game}\n[COLOR=#4b367c]Titel:[/color] {title}\n[COLOR=#4b367c]",
+			"ch_desc_text_off": "[center][img]{logo}[/img][/center]\n[size=14][COLOR=#4b367c]Name:[/color] [URL=https://www.twitch.tv/{user}][color=#00aa00]{user}[/color][/URL]\n[COLOR=#4b367c]Status:[/color] [color=#ff0000]Offline[/color][/size]",
+			"server_ad":	  	"false",
+			"server_ad_text": 	""
+				}
+
+  }
+}
